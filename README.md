@@ -34,7 +34,7 @@ ls
 
 cd BruteForce-Account  
 
-sh Zensxu.sh
+sh Type -0.sh
 
 
 
