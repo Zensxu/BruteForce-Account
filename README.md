@@ -13,8 +13,7 @@ pkg install python2
 
 pkg install git
 
-git clone https://github.com/IncredibleHacker/insta-hack
-
+git clone https://github.com/Zensxu/BruteForce-Account
 ls
 
 cd insta-hack
