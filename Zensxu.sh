@@ -21,8 +21,9 @@ red='\e[1;31m'
 cowsay -f eyes "Type -0" | lolcat
 figlet -f slant "Type -0" | lolcat
 echo "    <=====================[]====================>" | lolcat
-echo "    <=====[       Tools By Type -0       ]=====>" | lolcat
-echo  "    <=====[  Concact Me : +6675361  ]=====>" | lolcat
+echo "    <=====[       Tools By Zensxu         ]=====>" | lolcat
+echo "    <=====[    Concact Me : +6675361      ]=====>" | lolcat
+echo "  <=====[Tools BruteForce And Scann And DDos]=====>" | lolcat
 echo "    <=====================[]====================>" | lolcat
 
 sleep 1
