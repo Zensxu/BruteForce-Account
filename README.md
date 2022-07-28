@@ -23,9 +23,17 @@ git clone https://github.com/Zensxu/BruteForce-Account
 
 ls
 
+pip install requirements.txt
+
+chmod +x getproxy.sh
+
+bash getproxy.sh
+
 cd BruteForce-Account  
 
 sh Zensxu.sh
+
+python3 instacrack.py -u -p -px proxy.txt
 
 
 
