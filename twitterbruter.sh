@@ -17,9 +17,9 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 }
 
+
+
 banner() {
-
-
 
 
 printf "\e[1;36m______ `        `   _______   _______              _________\e[1;92m \e[0m\n" 
