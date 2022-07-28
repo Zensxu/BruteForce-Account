@@ -1,10 +1,11 @@
 #!/bin/bash
+# Tweetshell v2.0
 
 trap 'store;exit 1' 2
 
 checkroot() {
 #if [[ "$(id -u)" -ne 0 ]]; then
-    printf "\e[1;36m  Type-0\n\e[0m"
+    printf "\e[1;77mWelcome to my costumzie!\n\e[0m"
 #    exit 1
 #fi
 }
@@ -19,15 +20,14 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 banner() {
 
 
-printf "\e[1;36m   G~G~G   EEEE   RRRRRR   RRRRRR   YY    YY  VENDETTA \e[0m\n"
-printf "\e[1;36m   G       |      R    R   R    R    YY  YY     \e[0m\n"
-printf "\e[1;36m   G G~G|  |      R  RRR   R  RRR     YYYYY     \e[0m\n"
-printf "\e[1;36m   G    |  |EEE   R  R     R  R        YY       \e[0m\n"
-printf "\e[1;36m   G    |  |      R   R    R   R       YY       \e[0m\n"
-printf "\e[1;36m   GGGGGG  EEEE   R    R   R    R      YY       \e[0m\n"
-
+printf "\e[1;36m    ______  `      `    _______  _______              _________    \e[1;92m  
+printf "\e[1;36m      ||     ` | |`    ||      `  |                 /__    __ /    \e[1;92m 
+printf "\e[1;36m      ||      ` | `    ||     /   |        ______  /__     __/     \e[1;92m 
+printf "\e[1;36m      ||       | |     || ___/    |______         /__     __/      \e[1;92m
+printf "\e[1;36m      ||       | |    \||/        |              /__     __/        \e[1;92m
+printf "\e[1;36m    |_||_|     \_/   \_/\_/       |______         \__ __/           \e[1;92m
 printf "\n"
-printf "\e[32;1m\e[30;1m Twitter Bruteforce v2.0 Author: GerryVendetta\e[0m\n"
+printf "\e[1;77m\e[44m Twitter BruteForcer v1.0 Author: Type-0 (Github/IG)\e[0m\n"
 printf "\n"
 }
 
@@ -43,7 +43,7 @@ printf "\e[1;91mInvalid Username! Try again\e[0m\n"
 sleep 1
 start
 else
-default_wl_pass="pass.txt"
+default_wl_pass="pass.lst"
 read -p $'\e[1;92mPassword List (Enter to default list): \e[0m' wl_pass
 wl_pass="${wl_pass:-${default_wl_pass}}"
 default_threads="10"
@@ -183,3 +183,4 @@ case "$1" in --resume) resume ;; *)
 start
 bruteforcer
 esac
+
