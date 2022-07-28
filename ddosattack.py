@@ -1,9 +1,6 @@
 #[+]==============[ Contact ]===========[+]#
-# # Discord: garudadefacer#4              # #
-# # ICQ    : @garudadefacer                   # #
-# # Tele   : https://t.me/garudadefacer       # #
-# # Email  : Garuda@yahoo.com          # #
-# # 
+# # Discord: Anonsec                     # #
+# #                                      # #
 #[+]====================================[+]#
 
 import os, sys
