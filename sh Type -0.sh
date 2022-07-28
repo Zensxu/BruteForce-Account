@@ -21,8 +21,8 @@ red='\e[1;31m'
 cowsay -f eyes "Type -0" | lolcat
 figlet -f slant "Type -0" | lolcat
 echo "    <=====================[]====================>" | lolcat
-echo "    <=====[  Coded By Type -0  ]=====>" | lolcat
-echo  "    <=====[  Concact Me :  +92497070   ]=====>" | lolcat
+echo "    <=====[       Tools By Type -0       ]=====>" | lolcat
+echo  "    <=====[  Concact Me : +067531  ]=====>" | lolcat
 echo "    <=====================[]====================>" | lolcat
 
 sleep 1
@@ -44,18 +44,18 @@ while [ $lagi -lt 6 ];
 do
 echo ""
 echo $b "1. TOOLS BRUTEFORCE AND SCAN AND DDOS${enda}";
-echo $b "00. Exit${enda}";
+
+echo $b "99. Exit${enda}";
 read -p " Pilih Nomornya =>" pil;
 
 case $pil in
-1) sh Tools bruteforce.sh
+1)sh Tools BruteForce.sh
 echo
-
 
 ;;
 
 
-00) echo "Autor : Type -0" | lolcat
+99) echo "Autor : Type -0" | lolcat
 figlet -f slant "Type -0" | lolcat
 exit
 ;;
