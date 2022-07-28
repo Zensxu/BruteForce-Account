@@ -22,7 +22,31 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 banner() {
 
 
-printf "\e[1;36m______ `        `   _______   _______              _________\e[1;92m \e[0m\n" 
+
+
+#!/bin/bash
+# Tweetshell v2.0
+
+trap 'store;exit 1' 2
+
+checkroot() {
+#if [[ "$(id -u)" -ne 0 ]]; then
+    printf "\e[1;77mWelcome to my costumzie!\n\e[0m"
+#    exit 1
+#fi
+}
+
+dependencies() {
+
+command -v tor > /dev/null 2>&1 || { echo >&2 "I require tor but it's not installed. Run ./install.sh. Aborting."; exit 1; }
+command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not installed. Run ./install.sh. Aborting."; exit 1; }
+
+}
+
+banner() {
+
+
+printf "\e[1;36m______ `        `  _______   _______              _________\e[1;92m \e[0m\n" 
 printf "\e[1;36m  ||    ` | |  `   ||      `  |                 /__    __ /\e[1;92m \e[0m\n" 
 printf "\e[1;36m  ||    ` | | `    ||     /   |        ______  /__     __/\e[1;92m \e[0m\n"
 printf "\e[1;36m  ||      | |      || ___/    |______         /__     __/\e[1;92m \e[0m\n"
@@ -185,3 +209,4 @@ case "$1" in --resume) resume ;; *)
 start
 bruteforcer
 esac
+
