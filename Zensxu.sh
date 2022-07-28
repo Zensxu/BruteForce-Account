@@ -18,8 +18,8 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-cowsay -f eyes "Type -0" | lolcat
-figlet -f slant "Type -0" | lolcat
+cowsay -f eyes "Zensxu" | lolcat
+figlet -f slant "Zensxu" | lolcat
 echo "    <=====================[]====================>" | lolcat
 echo "    <=====[       Tools By Zensxu         ]=====>" | lolcat
 echo "    <=====[    Concact Me : +6675361      ]=====>" | lolcat
@@ -76,8 +76,8 @@ echo
 
 ;;
 
-99) echo "Autor : Type -0" | lolcat
-figlet -f slant "Type -0" | lolcat
+99) echo "Autor : Zensxu" | lolcat
+figlet -f slant "Zensxu" | lolcat
 exit
 ;;
 
