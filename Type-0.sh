@@ -1,4 +1,3 @@
-
 n#!/bin/bash
 #version 1.0
 
@@ -22,8 +21,8 @@ red='\e[1;31m'
 cowsay -f eyes "Type -0" | lolcat
 figlet -f slant "Type -0" | lolcat
 echo "    <=====================[]====================>" | lolcat
-echo "    <=====[       Tools By Type -0       ]=====>" | lolcat
-echo  "    <=====[  Concact Me : +067531  ]=====>" | lolcat
+echo "    <=====[       Tools By Moreno77       ]=====>" | lolcat
+echo  "    <=====[  Concact Me : +6285606753071  ]=====>" | lolcat
 echo "    <=====================[]====================>" | lolcat
 
 sleep 1
@@ -44,16 +43,37 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo $b "1. TOOLS BRUTEFORCE AND SCAN AND DDOS${enda}";
+echo $b "1. Hacking Instagram${enda}";
+echo $b "2. Hacking Facebook${enda}";
+echo $b "3. Hacking Twitter${enda}";
+echo $b "4. Hacking Gmail{enda}";
+echo $b "5. PortScanner${enda}";
+echo $b "6. DdosAttack${enda}";
 echo $b "99. Exit${enda}";
 read -p " Pilih Nomornya =>" pil;
 
+
 case $pil in
-1) sh Bruteforce.sh
+1) sh insta-hack.sh
 echo
 
 ;;
+2) python3 fb.py or python fb2.py
 
+;;
+3) bash twitterbruter.sh
+
+;;
+4) python2 gmailbruter.py
+
+;;
+5) python3 portscanner.py
+
+;;
+6) python3 ddosattack.py
+
+
+;;
 
 99) echo "Autor : Type -0" | lolcat
 figlet -f slant "Type -0" | lolcat
