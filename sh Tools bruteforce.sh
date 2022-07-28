@@ -18,7 +18,7 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-cowsay -f eyes "Anonsec" | lolcat
+cowsay -f eyes "Type -0" | lolcat
 figlet -f slant "Type -0" | lolcat
 echo "    <=====================[]====================>" | lolcat
 echo "    <=====[       Coded By Type -0  ]=====>" | lolcat
@@ -76,8 +76,8 @@ echo
 
 ;;
 
-00) echo "Autor : Hackers" | lolcat
-figlet -f slant "Anonsec" | lolcat
+00) echo "Autor : Type -0" | lolcat
+figlet -f slant "Type -0" | lolcat
 exit
 ;;
 
