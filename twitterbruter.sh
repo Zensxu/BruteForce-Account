@@ -20,7 +20,7 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 banner() {
 
 
-printf "\e[1;36m    ______  `      `    _______  _______              _________    \e[1;92m \e[0m\n" 
+printf "\e[1;36m    ______  `      `    _______   _______              _________    \e[1;92m \e[0m\n" 
 printf "\e[1;36m      ||     ` | |`    ||      `  |                 /__    __ /    \e[1;92m \e[0m\n" 
 printf "\e[1;36m      ||      ` | `    ||     /   |        ______  /__     __/     \e[1;92m \e[0m\n"
 printf "\e[1;36m      ||       | |     || ___/    |______         /__     __/      \e[1;92m \e[0m\n"
