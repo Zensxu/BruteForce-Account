@@ -1,4 +1,4 @@
-INSTALLATION [Termux]
+#INSTALLATION [Termux]
 
 apt update
 
