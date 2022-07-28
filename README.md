@@ -33,7 +33,7 @@ cd BruteForce-Account
 
 sh Zensxu.sh
 
-python3 instacrack.py -u -p -px proxy.txt
+python3 insta.py -u -p -px proxy.txt
 
 
 
