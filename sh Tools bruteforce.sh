@@ -21,8 +21,8 @@ red='\e[1;31m'
 cowsay -f eyes "Type -0" | lolcat
 figlet -f slant "Type -0" | lolcat
 echo "    <=====================[]====================>" | lolcat
-echo "    <=====[       Coded By Type -0  ]=====>" | lolcat
-echo  "    <=====[     Concact Me :  +92497070 ]=====>" | lolcat
+echo "    <=====[       Coded By Type -0        ]=====>" | lolcat
+echo  "   <=====[     Concact Me :  +92497070   ]=====>" | lolcat
 echo "    <=====================[]====================>" | lolcat
 
 
