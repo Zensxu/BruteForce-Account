@@ -28,9 +28,9 @@ print '                 Author by GerryVendetta                         '
 print '                   Penggunaan? (Usage)                           '
 print '              Masukkan 1 Untuk Memulai Serangan                  '
 print '   Masukkan File kata sandi Saya Telah Menambahkan File Saya     '
-print '        passwords.txt Anda Dapat Menambahkan File Anda               '
+print '        pass.txt Anda Dapat Menambahkan File Anda                '
 print '            Atau Anda Dapat Menambahkan Milik Saya               '
-print '     Brother: MarioGanz ~ Mr.N31 ~ Tn.Jones ~ ./YzGanz           '
+print '                                                                 '
 print '================================================================='
 
 main()
