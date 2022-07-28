@@ -1,3 +1,4 @@
+
 n#!/bin/bash
 #version 1.0
 
@@ -48,7 +49,7 @@ echo $b "99. Exit${enda}";
 read -p " Pilih Nomornya =>" pil;
 
 case $pil in
-1)sh Tools bruteforce.sh
+1) sh Tools bruteforce.sh
 echo
 
 ;;
