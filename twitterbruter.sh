@@ -1,5 +1,4 @@
 #!/bin/bash
-# Coded by: GerryVendetta
 
 trap 'store;exit 1' 2
 
