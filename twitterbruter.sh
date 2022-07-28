@@ -43,7 +43,7 @@ printf "\e[1;91mInvalid Username! Try again\e[0m\n"
 sleep 1
 start
 else
-default_wl_pass="pass.lst"
+default_wl_pass="passwords.lst"
 read -p $'\e[1;92mPassword List (Enter to default list): \e[0m' wl_pass
 wl_pass="${wl_pass:-${default_wl_pass}}"
 default_threads="10"
@@ -183,4 +183,3 @@ case "$1" in --resume) resume ;; *)
 start
 bruteforcer
 esac
-
