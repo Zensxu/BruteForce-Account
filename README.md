@@ -1,4 +1,5 @@
 INSTALLATION [Termux]
+
 apt update
 apt upgrade
 pkg install python
