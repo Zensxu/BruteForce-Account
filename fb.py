@@ -12,7 +12,7 @@ if sys.version_info[0] != 3:
     fb.py\n\t--------------------------------------''')
     sys.exit()
 
-PASSWORD_FILE = "passwords.txt"
+PASSWORD_FILE = "pass.txt"
 MIN_PASSWORD_LENGTH = 6
 POST_URL = 'https://www.facebook.com/login.php'
 HEADERS = {
