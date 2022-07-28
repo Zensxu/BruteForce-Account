@@ -51,7 +51,7 @@ echo $b "4. Hacking Gmail{enda}";
 echo $b "5. PortScanner${enda}";
 echo $b "6. DdosAttack${enda}";
 echo $b "99. Exit${enda}";
-read -p " Pilih Nomornya =>" pil;
+read -p " Choose Number =>" pil;
 
 
 case $pil in
