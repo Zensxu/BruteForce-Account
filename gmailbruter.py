@@ -1,5 +1,5 @@
 #!/usr/bin/python
-'''created by GerryVendetta'''
+'''by Type-0'''
 
 import smtplib
 from os import system
