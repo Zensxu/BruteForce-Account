@@ -44,12 +44,11 @@ while [ $lagi -lt 6 ];
 do
 echo ""
 echo $b "1. TOOLS BRUTEFORCE AND SCAN AND DDOS${enda}";
-
 echo $b "99. Exit${enda}";
 read -p " Pilih Nomornya =>" pil;
 
 case $pil in
-1)sh Tools BruteForce.sh
+1)sh Tools bruteforce.sh
 echo
 
 ;;
