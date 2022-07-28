@@ -55,7 +55,7 @@ read -p " Choose Number =>" pil;
 
 
 case $pil in
-1) python3 bruter.py
+1) python3 instacrack.py
 echo
 
 ;;
