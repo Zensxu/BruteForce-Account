@@ -48,7 +48,7 @@ echo $b "00. Exit${enda}";
 read -p " Pilih Nomornya =>" pil;
 
 case $pil in
-1) sh Tools BruteForce.sh
+1) sh Tools bruteforce.sh
 echo
 
 
