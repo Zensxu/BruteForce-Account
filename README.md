@@ -32,7 +32,7 @@ bash insta-hack.sh
 
 ls
 
-cd Zensxu 
+cd BruteForce-Account  
 
 sh Zensxu.sh
 
