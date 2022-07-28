@@ -20,12 +20,12 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 banner() {
 
 
-printf "\e[1;36m______ `       `   _______   _______              _________\e[1;92m \e[0m\n" 
-printf "\e[1;36m  ||    ` | | `   ||      `  |                 /__    __ /\e[1;92m \e[0m\n" 
-printf "\e[1;36m  ||    ` | |`    ||     /   |        ______  /__     __/\e[1;92m \e[0m\n"
-printf "\e[1;36m  ||      | |     || ___/    |______         /__     __/\e[1;92m \e[0m\n"
-printf "\e[1;36m  ||      | |    \||/        |              /__     __/\e[1;92m \e[0m\n"
-printf "\e[1;36m|_||_|    \_/   \_/\_/       |______         \__ __/\e[1;92m \e[0m\n"
+printf "\e[1;36m______ `        `   _______   _______              _________\e[1;92m \e[0m\n" 
+printf "\e[1;36m  ||    ` | |  `   ||      `  |                 /__    __ /\e[1;92m \e[0m\n" 
+printf "\e[1;36m  ||    ` | | `    ||     /   |        ______  /__     __/\e[1;92m \e[0m\n"
+printf "\e[1;36m  ||      | |      || ___/    |______         /__     __/\e[1;92m \e[0m\n"
+printf "\e[1;36m  ||      | |     \||/        |              /__     __/\e[1;92m \e[0m\n"
+printf "\e[1;36m|_||_|    \_/    \_/\_/       |______         \__ __/\e[1;92m \e[0m\n"
 printf "\n"
 printf "\e[1;77m\e[44m Twitter BruteForcer v2.0 Author: Type-0 (Github/IG)\e[0m\n"
 printf "\n"
