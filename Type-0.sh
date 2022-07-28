@@ -22,7 +22,7 @@ cowsay -f eyes "Type -0" | lolcat
 figlet -f slant "Type -0" | lolcat
 echo "    <=====================[]====================>" | lolcat
 echo "    <=====[       Tools By Moreno77       ]=====>" | lolcat
-echo  "    <=====[  Concact Me : +6285606753071  ]=====>" | lolcat
+echo  "    <=====[  Concact Me : +6675361  ]=====>" | lolcat
 echo "    <=====================[]====================>" | lolcat
 
 sleep 1
