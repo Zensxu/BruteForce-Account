@@ -13,24 +13,18 @@ bold = '\033[01m'
 cyan = '\033[96m'
 def main():
    print (green+"""
-        G~G~G   EEEE   RRRRRR   RRRRRR   YY    YY  VENDETTA 
-        G       |      R    R   R    R    YY  YY     
-        G G~G|  |      R  RRR   R  RRR     YYYYY     
-        G    |  |EEE   R  R     R  R        YY       
-        G    |  |      R   R    R   R       YY       
-        GGGGGG  EEEE   R    R   R    R      YY       
+   ______  `      `    _______   _______              _________    
+     ||     ` | |`    ||      `  |                 /__    __ /     
+     ||      ` | `    ||     /   |        ______  /__     __/   
+     ||       | |     || ___/    |______         /__     __/      
+     ||       | |    \||/        |              /__     __/      
+   |_||_|     \_/   \_/\_/       |______         \__ __/          
                                v 2.0
 """+green)
 
 print '================================================================='
 print '                  GMAIL BRUTEFORCE V2.0                          '
-print '                 Author by GerryVendetta                         '
-print '                   Penggunaan? (Usage)                           '
-print '              Masukkan 1 Untuk Memulai Serangan                  '
-print '   Masukkan File kata sandi Saya Telah Menambahkan File Saya     '
-print '        pass.txt Anda Dapat Menambahkan File Anda                '
-print '            Atau Anda Dapat Menambahkan Milik Saya               '
-print '                                                                 '
+print '                    Author by Type-0                                '                                                                 '
 print '================================================================='
 
 main()
@@ -70,3 +64,6 @@ def login():
          else:
             print '[!] password not found => ' + password
 login()
+
+
+   
