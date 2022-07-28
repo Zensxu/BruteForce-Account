@@ -1,7 +1,7 @@
 # BruteForce-Account
 CyberSecurity 
 
-#INSTALLATION [Termux]
+#INSTALLATION
 
 apt update
 
