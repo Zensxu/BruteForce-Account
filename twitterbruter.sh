@@ -5,7 +5,7 @@ trap 'store;exit 1' 2
 
 checkroot() {
 #if [[ "$(id -u)" -ne 0 ]]; then
-    printf "\e[1;36m  Brother : MarioGanz ~ Mr.N31 ~ Tn.Jones ~ ./YzGanz\n\e[0m"
+    printf "\e[1;36m  Type-0\n\e[0m"
 #    exit 1
 #fi
 }
@@ -44,7 +44,7 @@ printf "\e[1;91mInvalid Username! Try again\e[0m\n"
 sleep 1
 start
 else
-default_wl_pass="passwords.txt"
+default_wl_pass="pass.txt"
 read -p $'\e[1;92mPassword List (Enter to default list): \e[0m' wl_pass
 wl_pass="${wl_pass:-${default_wl_pass}}"
 default_threads="10"
