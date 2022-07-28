@@ -1,5 +1,4 @@
 #Tools Hacking FB
-#Cara Manggil
 #python3 fb.py or python fb2.py
 
 import os.path
