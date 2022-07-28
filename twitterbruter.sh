@@ -17,43 +17,17 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 }
 
-
-
 banner() {
 
 
-
-
-#!/bin/bash
-# Tweetshell v2.0
-
-trap 'store;exit 1' 2
-
-checkroot() {
-#if [[ "$(id -u)" -ne 0 ]]; then
-    printf "\e[1;77mWelcome to my costumzie!\n\e[0m"
-#    exit 1
-#fi
-}
-
-dependencies() {
-
-command -v tor > /dev/null 2>&1 || { echo >&2 "I require tor but it's not installed. Run ./install.sh. Aborting."; exit 1; }
-command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not installed. Run ./install.sh. Aborting."; exit 1; }
-
-}
-
-banner() {
-
-
-printf "\e[1;36m_____`    `______________           _________\e[0m\n"  
-printf "\e[1;36m  || `| |` ||      `|              /__    __ /\e[0m\n"  
-printf "\e[1;36m  || `| |` ||     / |     ______  /__     __/\e[0m\n"
-printf "\e[1;36m  ||  | |  || ___/  |______      /__     __/\e[0m\n" 
-printf "\e[1;36m  ||  | | \||/      |           /__     __/\e[0m\n"
-printf "\e[1;36m|_||_|\_/\_/\_/     |______    \_________/ \e[0m\n"
+printf "\e[1;36m      _  _     _____                 _  \e[1;92m     _          _ _  \e[0m\n"
+printf "\e[1;36m    _| || |_  |_   _|               | | \e[1;92m    | |        | | | \e[0m\n"
+printf "\e[1;36m   |_  __  _|   | |_      _____  ___| |_\e[1;92m ___| |__   ___| | | \e[0m\n"
+printf "\e[1;36m    _| || |_    | \ \ /\ / / _ \/ _ \ __\e[1;92m/ __| '_ \ / _ \ | | \e[0m\n"
+printf "\e[1;36m   |_  __  _|   | |\ V  V /  __/  __/ |_\e[1;92m\__ \ | | |  __/ | | \e[0m\n"
+printf "\e[1;36m     |_||_|     \_/ \_/\_/ \___|\___|\__\e[1;92m|___/_| |_|\___|_|_| \e[0m\n"
 printf "\n"
-printf "\e[1;77m\e[44m Twitter BruteForcer v2.0 Author: Type-0 (Github/IG)\e[0m\n"
+printf "\e[1;77m\e[44m Twitter BruteForcer v1.0 Author: Type-0 (Github/IG)\e[0m\n"
 printf "\n"
 }
 
@@ -209,6 +183,3 @@ case "$1" in --resume) resume ;; *)
 start
 bruteforcer
 esac
-
-
-
