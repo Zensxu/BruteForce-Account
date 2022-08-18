@@ -23,13 +23,13 @@ git clone https://github.com/Zensxu/BruteForce-Account
 
 ls
 
+cd BruteForce-Account  
+
 pip install requirements.txt
 
 chmod +x getproxy.sh
 
-bash getproxy.sh
-
-cd BruteForce-Account  
+bash getproxy.sh  
 
 sh Zensxu.sh
 
