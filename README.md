@@ -29,7 +29,7 @@ pip install requirements.txt
 
 chmod +x getproxy.sh
 
-bash getproxy.sh  
+bash getproxy.sh && python3
 
 sh Zensxu.sh
 
